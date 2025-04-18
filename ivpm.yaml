@@ -1,0 +1,14 @@
+
+package:
+  name: dv-flow-mcp
+
+  dep-sets:
+  - name: default-dev
+    deps: 
+    - name: mcp 
+      src: pypi
+    - name: httpx
+      src: pypi
+    - name: dv-flow-mgr
+      url: https://github.com/dv-flow/dv-flow-mgr.git
+
